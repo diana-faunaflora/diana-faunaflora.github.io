@@ -260,6 +260,6 @@ Exactement ceci, et rien d’autre : l’indicatif de l’activateur, l’indica
 
 ## Vos droits et contact
 
-Comme Diana ne garde vos réglages personnels que sur votre propre appareil, les consulter, les corriger ou les supprimer est aussi simple qu’ouvrir les Réglages. Pour toute question sur les statistiques anonymes, ou pour une réclamation, la page de confidentialité de l’application donne l’adresse de contact. En Belgique, vous pouvez aussi vous adresser à l’Autorité de protection des données (autoriteprotectiondonnees.be) ; en France, à la CNIL (cnil.fr).
+Comme Diana ne garde vos réglages personnels que sur votre propre appareil, les consulter, les corriger ou les supprimer est aussi simple qu’ouvrir les Réglages. Pour toute question sur les statistiques anonymes, ou pour une réclamation, la page de confidentialité de l’application donne l’adresse de contact.
 '''},
 }

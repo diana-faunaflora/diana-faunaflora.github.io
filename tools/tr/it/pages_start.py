@@ -260,6 +260,6 @@ Esattamente questo, e nient’altro: il nominativo dell’attivatore, il nominat
 
 ## I tuoi diritti e contatti
 
-Poiché Diana conserva le tue impostazioni personali solo sul tuo dispositivo, consultarle, correggerle o cancellarle è semplice come aprire le Impostazioni. Per qualsiasi domanda sulle statistiche anonime, o per un reclamo, la pagina privacy dell’app indica l’indirizzo di contatto. In Italia puoi rivolgerti anche al Garante per la protezione dei dati personali (garanteprivacy.it).
+Poiché Diana conserva le tue impostazioni personali solo sul tuo dispositivo, consultarle, correggerle o cancellarle è semplice come aprire le Impostazioni. Per qualsiasi domanda sulle statistiche anonime, o per un reclamo, la pagina privacy dell’app indica l’indirizzo di contatto.
 '''},
 }

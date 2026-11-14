@@ -38,4 +38,4 @@ Exactly this, and nothing else: the activator’s callsign, the spotter’s call
 
 ## Your rights and contact
 
-Because Diana keeps your personal settings only on your own device, viewing, correcting or deleting them is as simple as opening Settings. For anything about the anonymous statistics, or a complaint, the privacy page in the app gives the contact address. In Belgium you can also turn to the Data Protection Authority (gegevensbeschermingsautoriteit.be).
+Because Diana keeps your personal settings only on your own device, viewing, correcting or deleting them is as simple as opening Settings. For anything about the anonymous statistics, or a complaint, the privacy page in the app gives the contact address.

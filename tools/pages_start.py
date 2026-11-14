@@ -505,7 +505,7 @@ Exactly this, and nothing else: the activator’s callsign, the spotter’s call
 
 ## Your rights and contact
 
-Because Diana keeps your personal settings only on your own device, viewing, correcting or deleting them is as simple as opening Settings. For anything about the anonymous statistics, or a complaint, the privacy page in the app gives the contact address. In Belgium you can also turn to the Data Protection Authority (gegevensbeschermingsautoriteit.be).
+Because Diana keeps your personal settings only on your own device, viewing, correcting or deleting them is as simple as opening Settings. For anything about the anonymous statistics, or a complaint, the privacy page in the app gives the contact address.
 '''},
 'nl': {'title': 'Privacy', 'desc': 'Wat Diana weet, wat niet, en waarom.', 'body': '''
 Diana is zo gebouwd dat je gegevens bij jou blijven. Deze pagina vat de privacypagina in de app samen (**Instellingen** › **Privacy** › **Open de privacypagina**).
@@ -541,6 +541,6 @@ Precies dit, en niets anders: de roepnaam van de activator, de roepnaam van de s
 
 ## Jouw rechten en contact
 
-Omdat Diana je persoonlijke instellingen alleen op je eigen toestel bewaart, is inkijken, verbeteren of wissen zo eenvoudig als Instellingen openen. Voor alles over de anonieme statistieken, of een klacht, staat het contactadres op de privacypagina in de app. Je kan ook terecht bij de Gegevensbeschermingsautoriteit (gegevensbeschermingsautoriteit.be).
+Omdat Diana je persoonlijke instellingen alleen op je eigen toestel bewaart, is inkijken, verbeteren of wissen zo eenvoudig als Instellingen openen. Voor alles over de anonieme statistieken, of een klacht, staat het contactadres op de privacypagina in de app.
 '''}},
 ]

@@ -260,6 +260,6 @@ Exactamente esto, y nada más: el indicativo del activador, el indicativo del sp
 
 ## Tus derechos y contacto
 
-Como Diana guarda tus ajustes personales solo en tu propio dispositivo, consultarlos, corregirlos o borrarlos es tan sencillo como abrir Ajustes. Para cualquier cuestión sobre las estadísticas anónimas, o una reclamación, la página de privacidad de la app indica la dirección de contacto. En España puedes dirigirte también a la Agencia Española de Protección de Datos (aepd.es).
+Como Diana guarda tus ajustes personales solo en tu propio dispositivo, consultarlos, corregirlos o borrarlos es tan sencillo como abrir Ajustes. Para cualquier cuestión sobre las estadísticas anónimas, o una reclamación, la página de privacidad de la app indica la dirección de contacto.
 '''},
 }

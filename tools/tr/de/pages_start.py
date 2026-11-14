@@ -260,6 +260,6 @@ Genau das, und sonst nichts: das Rufzeichen des Aktivierers, das Rufzeichen des 
 
 ## Deine Rechte und Kontakt
 
-Weil Diana deine persönlichen Einstellungen nur auf deinem eigenen Gerät hält, ist Einsehen, Korrigieren oder Löschen so einfach wie das Öffnen der Einstellungen. Für alles rund um die anonyme Statistik, oder für eine Beschwerde, nennt die Datenschutzseite in der App die Kontaktadresse. In Belgien kannst du dich auch an die Datenschutzbehörde wenden (gegevensbeschermingsautoriteit.be); in Deutschland an die Datenschutzaufsicht deines Bundeslandes.
+Weil Diana deine persönlichen Einstellungen nur auf deinem eigenen Gerät hält, ist Einsehen, Korrigieren oder Löschen so einfach wie das Öffnen der Einstellungen. Für alles rund um die anonyme Statistik, oder für eine Beschwerde, nennt die Datenschutzseite in der App die Kontaktadresse.
 '''},
 }

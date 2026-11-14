@@ -38,4 +38,4 @@ Exatamente isto, e mais nada: o indicativo do ativador, o indicativo do spotter,
 
 ## Os teus direitos e contacto
 
-Como o Diana guarda as tuas definições pessoais apenas no teu próprio dispositivo, consultá-las, corrigi-las ou apagá-las é tão simples como abrir as Definições. Para qualquer questão sobre as estatísticas anónimas, ou uma reclamação, a página de privacidade da aplicação indica o endereço de contacto. Em Portugal podes também dirigir-te à Comissão Nacional de Proteção de Dados (cnpd.pt).
+Como o Diana guarda as tuas definições pessoais apenas no teu próprio dispositivo, consultá-las, corrigi-las ou apagá-las é tão simples como abrir as Definições. Para qualquer questão sobre as estatísticas anónimas, ou uma reclamação, a página de privacidade da aplicação indica o endereço de contacto.

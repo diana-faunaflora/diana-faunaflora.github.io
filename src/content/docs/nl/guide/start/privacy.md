@@ -38,4 +38,4 @@ Precies dit, en niets anders: de roepnaam van de activator, de roepnaam van de s
 
 ## Jouw rechten en contact
 
-Omdat Diana je persoonlijke instellingen alleen op je eigen toestel bewaart, is inkijken, verbeteren of wissen zo eenvoudig als Instellingen openen. Voor alles over de anonieme statistieken, of een klacht, staat het contactadres op de privacypagina in de app. Je kan ook terecht bij de Gegevensbeschermingsautoriteit (gegevensbeschermingsautoriteit.be).
+Omdat Diana je persoonlijke instellingen alleen op je eigen toestel bewaart, is inkijken, verbeteren of wissen zo eenvoudig als Instellingen openen. Voor alles over de anonieme statistieken, of een klacht, staat het contactadres op de privacypagina in de app.

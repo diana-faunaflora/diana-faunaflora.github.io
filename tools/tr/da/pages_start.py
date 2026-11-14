@@ -260,6 +260,6 @@ Præcis dette, og intet andet: aktivatorens kaldesignal, spotterens kaldesignal,
 
 ## Dine rettigheder og kontakt
 
-Fordi Diana kun gemmer dine personlige indstillinger på din egen enhed, er det lige så nemt at se, rette eller slette dem som at åbne Indstillinger. For alt om den anonyme statistik, eller en klage, angiver privatlivssiden i appen kontaktadressen. I Danmark kan du også henvende dig til Datatilsynet (datatilsynet.dk).
+Fordi Diana kun gemmer dine personlige indstillinger på din egen enhed, er det lige så nemt at se, rette eller slette dem som at åbne Indstillinger. For alt om den anonyme statistik, eller en klage, angiver privatlivssiden i appen kontaktadressen.
 '''},
 }
