@@ -243,7 +243,9 @@ h3 { margin: 0; }
 @media (max-width: 700px) {
   body { font-size: 17px; }
   .block { padding-top: 72px; }
-  .menu { display: none; }
+  .top-in { gap: 4px 12px; }
+  .menu { order: 3; flex: 1 1 100%; flex-wrap: wrap; gap: 0 2px; margin: 0 -8px; }
+  .menu a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px; font-size: 16px; font-weight: 600; color: var(--forest); }
   .slide, .side, .cta-box { padding: 28px 22px; }
   .slide h3 { font-size: 32px; }
   .phone-back { display: none; }
