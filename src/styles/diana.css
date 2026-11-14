@@ -227,3 +227,33 @@ starlight-toc h2,
   text-decoration: none;
   white-space: nowrap;
 }
+
+/* Phone: make the guide menu button easy to spot (green pill with a label) */
+@media (max-width: 49.99rem) {
+  :root { --sl-menu-button-size: 6.6rem; }
+  .sl-menu-button {
+    top: calc((var(--sl-nav-height) - 2.75rem) / 2);
+    width: auto;
+    height: 2.75rem;
+    padding: 0 1.05rem 0 0.9rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    background-color: var(--diana-forest);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    font-family: var(--sl-font);
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .sl-menu-button svg { width: 1.4rem; height: 1.4rem; flex: none; }
+  .sl-menu-button::after { content: 'Menu'; }
+  :root[lang='de'] .sl-menu-button::after { content: 'Menü'; }
+  :root[lang='es'] .sl-menu-button::after { content: 'Menú'; }
+  :root[data-theme='light'] .sl-menu-button { background-color: var(--diana-forest); color: #fff; }
+  .sl-menu-button:has(~ :popover-open) { background-color: var(--diana-green); }
+  :root[data-theme='light'] .sl-menu-button:has(~ :popover-open) { background-color: var(--diana-green); }
+  .site-title img { height: 2.3rem; width: auto; }
+  .site-title span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
