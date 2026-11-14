@@ -1,0 +1,229 @@
+/* Diana house style for the user guide (style B):
+   narrow capitals for titles (Archivo, condensed), Atkinson Hyperlegible Next
+   for reading, IBM Plex Mono for references, frequencies and small labels.
+   Colours come from the app: forest green, a bright leaf green as accent. */
+
+:root {
+  --sl-font: 'Atkinson Hyperlegible Next Variable', system-ui, sans-serif;
+  --sl-font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --diana-title: 'Archivo Variable', 'Arial Narrow', sans-serif;
+  --diana-forest: #1b4332;
+  --diana-green: #2d6a4f;
+  --diana-leaf: #22c55e;
+  --diana-marker: #6fe39a;
+  --diana-ink: #15130f;
+  --diana-sub: #3d3a33;
+  --diana-paper: #fbfaf6;
+  --diana-sand: #f1f0e9;
+  --diana-line: #ecebe4;
+
+  --sl-text-body: 1.125rem;
+  --sl-text-body-sm: 1rem;
+  --sl-line-height: 1.7;
+  --sl-text-h1: clamp(2.4rem, 5vw, 3.6rem);
+  --sl-text-h2: 2.2rem;
+  --sl-text-h3: 1.35rem;
+  --sl-content-width: 48rem;
+  --sl-sidebar-width: 19rem;
+}
+
+/* Dark mode (Starlight default) in Diana greens */
+:root {
+  --sl-color-accent-low: #12291d;
+  --sl-color-accent: #52b788;
+  --sl-color-accent-high: #b7e4c7;
+  --sl-color-white: #f6f4ee;
+  --sl-color-gray-1: #e8e5dc;
+  --sl-color-gray-2: #d2cec2;
+  --sl-color-gray-3: #a29d90;
+  --sl-color-gray-4: #6f6a5f;
+  --sl-color-gray-5: #3f3b34;
+  --sl-color-gray-6: #24221d;
+  --sl-color-black: #171511;
+}
+
+/* Light mode */
+:root[data-theme='light'] {
+  --sl-color-accent-low: #e4f1e7;
+  --sl-color-accent: #2d6a4f;
+  --sl-color-accent-high: #1b4332;
+  --sl-color-white: #15130f;
+  --sl-color-gray-1: #24221d;
+  --sl-color-gray-2: #3d3a33;
+  --sl-color-gray-3: #55514a;
+  --sl-color-gray-4: #8a857a;
+  --sl-color-gray-5: #d6d2c4;
+  --sl-color-gray-6: #ecebe4;
+  --sl-color-gray-7: #f6f4ee;
+  --sl-color-black: #fbfaf6;
+  --sl-color-text: #15130f;
+  --sl-color-bg-nav: #fbfaf6;
+  --sl-color-bg-sidebar: #fbfaf6;
+  --sl-color-bg-inline-code: #f1f0e9;
+}
+
+/* Titles: narrow capitals */
+h1#_top,
+.sl-markdown-content h2,
+.site-title {
+  font-family: var(--diana-title);
+  font-stretch: 70%;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  line-height: 1.02;
+}
+h1#_top { font-weight: 900; }
+.sl-markdown-content h2 { margin-top: 3rem; }
+.sl-markdown-content h3 { font-weight: 700; }
+.site-title { font-size: 1.5rem; gap: 0.6rem; }
+.site-title img { height: 2rem; width: auto; }
+
+/* Sidebar group labels and the "on this page" title in small mono capitals */
+.sidebar-content .group-label .large,
+starlight-toc h2,
+.right-sidebar-panel h2 {
+  font-family: var(--sl-font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sl-color-accent);
+}
+:root[data-theme='light'] .sidebar-content a[aria-current='page'] {
+  background: #e4f1e7;
+  color: #12291d;
+  font-weight: 600;
+}
+.sidebar-content a { font-size: 1rem; }
+
+/* Lead paragraph under the title */
+.sl-markdown-content > p:first-child { font-size: 1.3rem; line-height: 1.55; }
+
+/* Numbered steps: every ordered list in the guide reads as a step list */
+.sl-markdown-content ol {
+  list-style: none;
+  counter-reset: step;
+  padding-left: 0;
+  margin: 1.25rem 0;
+  background: var(--diana-sand);
+  border-radius: 1.25rem;
+  padding: 1.6rem 1.8rem;
+}
+:root:not([data-theme='light']) .sl-markdown-content ol { background: #24221d; }
+.sl-markdown-content ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.8rem;
+  min-height: 2rem;
+}
+.sl-markdown-content ol > li + li { margin-top: 0.9rem; }
+.sl-markdown-content ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  background: var(--diana-forest);
+  color: #fbfaf6;
+  font-size: 0.95rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tables: clean, white, rounded */
+.sl-markdown-content table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--diana-line);
+  border-radius: 1rem;
+  overflow: hidden;
+  font-size: 1rem;
+}
+:root[data-theme='light'] .sl-markdown-content table { background: #ffffff; }
+.sl-markdown-content th {
+  font-family: var(--sl-font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-2);
+  background: transparent;
+  border-bottom: 1px solid var(--diana-line);
+}
+.sl-markdown-content th,
+.sl-markdown-content td { padding: 0.75rem 1rem; border-left: 0; border-right: 0; }
+.sl-markdown-content td:first-child { font-weight: 600; }
+.sl-markdown-content tr + tr td { border-top: 1px solid var(--diana-line); }
+.sl-markdown-content tbody tr:first-child td { border-top: 0; }
+@media (max-width: 40rem) {
+  .sl-markdown-content table { display: block; overflow-x: auto; }
+}
+
+/* Asides: soft blocks, no hard borders */
+.starlight-aside {
+  border: 0;
+  border-radius: 1.1rem;
+  padding: 1.1rem 1.4rem;
+}
+:root[data-theme='light'] .starlight-aside--tip,
+:root[data-theme='light'] .starlight-aside--note { background: #e9f3eb; color: #1b4332; }
+:root[data-theme='light'] .starlight-aside--caution { background: #fdf1df; color: #7a4a10; }
+:root[data-theme='light'] .starlight-aside--danger { background: #fbe4e2; color: #7f1d1d; }
+.starlight-aside__title { font-size: 1rem; }
+.starlight-aside--note, .starlight-aside--tip { --sl-color-asides-text-accent: #2d6a4f; --sl-color-asides-border: #52b788; }
+.starlight-aside--caution { --sl-color-asides-text-accent: #9a5b0c; --sl-color-asides-border: #d97706; }
+.starlight-aside--danger { --sl-color-asides-text-accent: #9b2226; --sl-color-asides-border: #c0392b; }
+:root:not([data-theme='light']) .starlight-aside--note, :root:not([data-theme='light']) .starlight-aside--tip { --sl-color-asides-text-accent: #b7e4c7; }
+:root:not([data-theme='light']) .starlight-aside--caution { --sl-color-asides-text-accent: #f2c27b; }
+
+/* App screenshots: shown as a phone. File names start with "phone-". */
+.sl-markdown-content img[src*='phone-'] {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 9px solid #15130f;
+  border-radius: 34px;
+  margin: 1.5rem 0;
+  background: #15130f;
+}
+.sl-markdown-content img:not([src*='phone-']) {
+  border-radius: 1rem;
+  height: auto;
+}
+
+/* References, frequencies, locators */
+.sl-markdown-content code {
+  font-size: 0.92em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.35em;
+}
+
+/* Header button to the app */
+.diana-open {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 0.6rem;
+  background: var(--diana-forest);
+  color: #fbfaf6 !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.diana-open:hover { background: var(--diana-green); }
+.diana-home {
+  font-size: 0.95rem;
+  color: var(--sl-color-gray-2);
+  text-decoration: none;
+  white-space: nowrap;
+}

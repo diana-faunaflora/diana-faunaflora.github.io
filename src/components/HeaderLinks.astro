@@ -1,0 +1,10 @@
+---
+// Replaces Starlight's social icons in the header with a link back to the
+// start page and a button that opens the app.
+const lang = Astro.locals.starlightRoute?.locale;
+const home = `${import.meta.env.BASE_URL}${lang ? lang + '/' : ''}`;
+const label = { nl: 'Open Diana', fr: 'Ouvrir Diana', de: 'Diana öffnen', da: 'Åbn Diana', it: 'Apri Diana', es: 'Abrir Diana', pt: 'Abrir a Diana' }[lang ?? ''] ?? 'Open Diana';
+const homeLabel = { nl: 'Startpagina', fr: 'Accueil', de: 'Startseite', da: 'Forside', it: 'Home', es: 'Inicio', pt: 'Início' }[lang ?? ''] ?? 'Home';
+---
+<a class="diana-home" href={home}>{homeLabel}</a>
+<a class="diana-open" href="https://diana-onff.github.io/">{label}</a>

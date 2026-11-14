@@ -1,0 +1,284 @@
+---
+// The start page, one per language. Texts come from src/i18n/landing.mjs.
+import { Image } from 'astro:assets';
+import '../styles/fonts.css';
+import '../styles/landing.css';
+import { LANGS, TEXT, textFor } from '../i18n/landing.mjs';
+import logo from '../assets/diana-logo.png';
+import wwff from '../assets/wwff-logo.png';
+import splash from '../assets/splash.webp';
+import shotSpots from '../assets/screens/phone-spots-world.webp';
+import shotPanel from '../assets/screens/phone-area-panel.webp';
+import fMap from '../assets/screens/map-legend.webp';
+import fAgenda from '../assets/screens/phone-agenda.webp';
+import fSelf from '../assets/screens/phone-spot-yourself.webp';
+import fAnnounce from '../assets/screens/phone-announce.webp';
+import fField from '../assets/screens/phone-field-areas.webp';
+import fCond from '../assets/screens/phone-field-conditions.webp';
+
+interface Props { lang: string }
+const { lang } = Astro.props;
+const t = textFor(lang);
+const hasText = lang in TEXT;
+const base = import.meta.env.BASE_URL;            // "/"
+const pre = lang === 'en' ? base : `${base}${lang}/`;  // start of this language
+const guide = (p: string) => `${pre}${p}`;
+const homeOf = (code: string) => (code === 'en' ? base : `${base}${code}/`);
+const APP = 'https://diana-onff.github.io/';
+const featImg: Record<string, any> = { map: fMap, panel: shotPanel, spots: shotSpots, agenda: fAgenda, self: fSelf, announce: fAnnounce, field: fField, cond: fCond };
+const features = t.features.map((f: any, i: number) => ({ ...f, img: featImg[f.key], wide: f.key === 'map', i }));
+const pdfLang = { en: 'EN', nl: 'NL', fr: 'FR', de: 'DE', da: 'DA', it: 'IT', es: 'ES', pt: 'PT' }[lang] ?? 'EN';
+---
+<!doctype html>
+<html lang={hasText ? lang : 'en'}>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{t.metaTitle}</title>
+<meta name="description" content={t.metaDesc} />
+<meta name="theme-color" content="#1b4332" />
+<link rel="icon" href={`${base}icon-192.png`} />
+<link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
+{LANGS.map((l) => <link rel="alternate" hreflang={l.code} href={new URL(homeOf(l.code), Astro.site)} />)}
+</head>
+<body>
+<a class="skip" href="#main">Skip</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href={pre}>
+      <Image src={logo} alt="" width={52} height={34} />
+      <span><b>Diana</b><small>Fauna &amp; Flora</small></span>
+    </a>
+    <nav aria-label="Menu" class="menu">
+      <a href="#what">{t.nav.what}</a>
+      <a href="#install">{t.nav.install}</a>
+      <a href={guide('guide/start/what-is-diana/')}>{t.nav.guide}</a>
+      <a href="#sources">{t.nav.about}</a>
+    </nav>
+    <div class="top-actions">
+      <label class="sr" for="langsel">{t.nav.lang}</label>
+      <select id="langsel" class="langsel" data-lang-select>
+        {LANGS.map((l) => <option value={homeOf(l.code)} selected={l.code === lang}>{l.label}</option>)}
+      </select>
+      <a class="btn btn-dark" href={APP}>{t.nav.open}</a>
+    </div>
+  </div>
+</header>
+
+{!hasText && <p class="wrap notice">{t.notTranslated}</p>}
+
+<main id="main">
+
+<section class="wrap hero">
+  <div class="hero-text">
+    <p class="kicker"><span class="dot"></span>{t.kicker}</p>
+    <h1>
+      <span>{t.h1[0]}</span>
+      <span>{t.h1[1]}</span>
+      <span class="mark">{t.h1[2]}</span>
+    </h1>
+    <p class="lead" set:html={t.lead} />
+    <ul class="checks">
+      {t.heroItems.map((i: string) => <li>{i}</li>)}
+    </ul>
+    <div class="ctas">
+      <a class="btn btn-dark btn-lg" href={APP}>{t.ctaOpen}</a>
+      <a class="btn btn-line btn-lg" href="#install">{t.ctaInstall}</a>
+      <a class="link-strong" href="#features">{t.ctaHow}</a>
+    </div>
+    <dl class="facts">
+      {t.facts.map(([k, v]: string[]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}
+    </dl>
+  </div>
+  <div class="hero-phones" aria-hidden="false">
+    <div class="phone phone-back"><Image src={shotSpots} alt={t.heroAlt1} widths={[260, 520]} sizes="236px" /></div>
+    <div class="phone"><Image src={shotPanel} alt={t.heroAlt2} widths={[280, 560]} sizes="256px" /></div>
+  </div>
+</section>
+
+<section id="what" class="band-white">
+  <div class="wrap wwff">
+    <Image src={wwff} alt={t.wwffAlt} width={150} height={150} />
+    <div>
+      <p class="label">{t.wwffLabel}</p>
+      <h2>{t.wwffTitle}</h2>
+      <p class="big" set:html={t.wwffText} />
+      <p class="sub">{t.wwffNote}</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap block" aria-labelledby="live-title" data-live hidden
+  data-t={JSON.stringify({ on: [t.liveLabelOn, t.liveTitleOn, t.liveLinkOn, t.liveNoteOn, t.liveCols], off: [t.liveLabelOff, t.liveTitleOff, t.liveLinkOff, t.liveNoteOff, t.liveColsOff], fail: t.liveFail, empty: t.liveEmpty, min: t.minAgo, h: t.hAgo })}>
+  <div class="row-head">
+    <div>
+      <p class="label"><span class="live-dot" data-live-dot></span><span data-live-label>{t.liveLabelOn}</span></p>
+      <h2 id="live-title" data-live-title>{t.liveTitleOn}</h2>
+    </div>
+    <a class="link-strong" href={APP} data-live-link>{t.liveLinkOn}</a>
+  </div>
+  <div class="live-box">
+    <div class="live-table" role="table" aria-labelledby="live-title">
+      <div class="live-row live-head" role="row">
+        {t.liveCols.map((c: string) => <span role="columnheader" data-live-col>{c}</span>)}
+      </div>
+      <div data-live-rows>
+        <p class="live-msg">{t.liveLoading}</p>
+      </div>
+    </div>
+  </div>
+  <p class="sub" data-live-note>{t.liveNoteOn}</p>
+</section>
+
+<section class="wrap block" aria-label={t.statsLabel}>
+  <div class="stats">
+    {t.stats.map(([k, n, label, sub]: string[]) => (
+      <div class="stat"><div class="stat-bar"></div><div class="stat-n" data-stat={k}>{n}</div><div class="stat-l">{label}</div><div class="stat-s">{sub}</div></div>
+    ))}
+  </div>
+  <p class="sub">{t.statsNote}</p>
+</section>
+
+<section class="wrap block" aria-labelledby="sides-title">
+  <p class="label">{t.sidesLabel}</p>
+  <h2 id="sides-title">{t.sidesTitle}</h2>
+  <div class="sides">
+    {t.sides.map((s: any, i: number) => (
+      <article class={`side side-${i}`}>
+        <h3>{s.title}</h3>
+        <p class="side-intro">{s.intro}</p>
+        <ul class="checks">{s.items.map((it: string) => <li>{it}</li>)}</ul>
+        <a class="btn btn-white" href={guide(s.link)}>{s.cta}</a>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="wrap block" aria-labelledby="steps-title">
+  <p class="label">{t.stepsLabel}</p>
+  <h2 id="steps-title">{t.stepsTitle}</h2>
+  <ol class="steps4">
+    {t.steps.map(([title, d]: string[], i: number) => (
+      <li><div class="step-n">{String(i + 1).padStart(2, '0')}</div><h3>{title}</h3><p>{d}</p></li>
+    ))}
+  </ol>
+</section>
+
+<section id="features" class="wrap block" aria-labelledby="feat-title" aria-roledescription="carousel" data-slider>
+  <div class="row-head">
+    <div>
+      <p class="label">{t.featLabel}</p>
+      <h2 id="feat-title">{t.featTitle}</h2>
+    </div>
+    <div class="slide-arrows">
+      <button type="button" class="arrow" aria-label={t.featPrev} data-prev>←</button>
+      <button type="button" class="arrow arrow-dark" aria-label={t.featNext} data-next>→</button>
+    </div>
+  </div>
+  <div class="slides" data-track>
+    {features.map((f: any) => (
+      <article class={`slide slide-${f.i % 3}`} data-slide={f.i} aria-roledescription="slide" aria-label={`${f.i + 1} / ${features.length}`} hidden={f.i !== 0}>
+        <div class="slide-text">
+          <p class="mono">{String(f.i + 1).padStart(2, '0')} / {String(features.length).padStart(2, '0')}</p>
+          <h3>{f.title}</h3>
+          <p class="slide-lead">{f.text}</p>
+          <ul class="checks">{f.points.map((p: string) => <li>{p}</li>)}</ul>
+          <a class="btn btn-white" href={guide(f.link)}>{f.cta}</a>
+        </div>
+        <div class="slide-img">
+          {f.wide
+            ? <Image src={f.img} alt={f.title} widths={[560, 1120]} sizes="(max-width: 700px) 90vw, 560px" class="wide-img" />
+            : <div class="phone"><Image src={f.img} alt={f.title} widths={[280, 560]} sizes="280px" /></div>}
+        </div>
+      </article>
+    ))}
+  </div>
+  <div class="dots" role="tablist" aria-label={t.featPick}>
+    {features.map((f: any) => <button type="button" role="tab" aria-selected={f.i === 0 ? 'true' : 'false'} aria-label={f.short} data-dot={f.i}><span></span></button>)}
+  </div>
+  <p class="dots-hint"><span data-slide-name>{features[0].short}</span> · {t.featHint}</p>
+</section>
+
+<section id="install" class="wrap block" aria-labelledby="inst-title">
+  <p class="label">{t.instLabel}</p>
+  <h2 id="inst-title">{t.instTitle}</h2>
+  <p class="big narrow">{t.instText}</p>
+  <div class="inst">
+    {t.install.map((c: any) => (
+      <div class="inst-card">
+        <h3>{c.title}</h3>
+        <p class="sub">{c.browser}</p>
+        <ol>{c.steps.map((s: string) => <li>{s}</li>)}</ol>
+        <a class="link-strong" href={guide(c.link)}>{t.instMore}</a>
+      </div>
+    ))}
+  </div>
+  <p class="privacy-line" set:html={t.privacy} />
+</section>
+
+<section class="wrap block name" aria-labelledby="name-title">
+  <Image src={splash} alt={t.splashAlt} widths={[300, 600]} sizes="300px" class="name-img" />
+  <div>
+    <Image src={logo} alt="" width={104} height={68} />
+    <p class="label">{t.nameLabel}</p>
+    <h2 id="name-title">{t.nameTitle}</h2>
+    <p class="big">{t.nameText}</p>
+    <p class="sub">{t.nameText2}</p>
+  </div>
+</section>
+
+<section id="sources" class="wrap block" aria-labelledby="src-title">
+  <p class="label">{t.srcLabel}</p>
+  <h2 id="src-title">{t.srcTitle}</h2>
+  <div class="tiles">
+    {t.sources.map(([w, f]: string[]) => <div class="tile"><b>{w}</b><span>{f}</span></div>)}
+  </div>
+</section>
+
+<section class="wrap block" aria-labelledby="help-title">
+  <div class="row-head">
+    <div>
+      <p class="label">{t.helpLabel}</p>
+      <h2 id="help-title">{t.helpTitle}</h2>
+    </div>
+    <form class="search" role="search" data-search data-none={t.searchNone} data-lang={lang} onsubmit="return false">
+      <label for="q">{t.searchLabel}</label>
+      <input id="q" type="search" placeholder={t.searchPh} autocomplete="off" />
+    </form>
+  </div>
+  <ul class="results" data-results hidden></ul>
+  <div class="topics">
+    {t.topics.map(([title, d, link]: string[]) => (
+      <a class="topic" href={guide(link)}><span><b>{title}</b><small>{d}</small></span><span aria-hidden="true">→</span></a>
+    ))}
+  </div>
+  <p class="sub"><a href={`${base}presentation/Diana_FaunaFlora_Presentation_${pdfLang}.pdf`}>{t.pdf}</a></p>
+</section>
+
+<section class="wrap block">
+  <div class="cta-box">
+    <h2>{t.ctaTitle[0]}<br /><span>{t.ctaTitle[1]}</span></h2>
+    <a class="btn btn-light btn-lg" href={APP}>{t.nav.open}</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap foot">
+  <div class="foot-brand"><Image src={logo} alt="" width={40} height={26} /><span>{t.footer}</span></div>
+  <nav aria-label="Footer" class="foot-links">
+    <a href={guide('guide/start/privacy/')}>{t.footPrivacy}</a>
+    <a href={guide('guide/about/about-diana/')}>{t.footLicence}</a>
+    <a href="https://github.com/diana-onff">{t.footSource}</a>
+    <a href="https://wwff.co/">wwff.co</a>
+  </nav>
+  <p class="foot-note">{t.footSite}</p>
+</footer>
+
+<script>
+  import { initLanding } from '../scripts/landing.js';
+  initLanding();
+</script>
+</body>
+</html>
