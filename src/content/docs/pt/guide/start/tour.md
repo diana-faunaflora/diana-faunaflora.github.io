@@ -1,11 +1,11 @@
 ---
 title: "A visita guiada"
-description: "Uma curta visita guiada por todos os ecrãs do Diana."
+description: "Uma curta visita guiada por todos os ecrãs de Diana."
 sidebar:
   order: 8
 ---
 
-Depois do assistente, o Diana pergunta: *"Uma breve visita aos ecrãs?"* Toca em **Começar a visita** e o Diana abre cada ecrã à vez, com um pequeno cartão que explica o que estás a ver.
+Depois do assistente, Diana pergunta: *"Uma breve visita aos ecrãs?"* Toca em **Começar a visita** e Diana abre cada ecrã à vez, com um pequeno cartão que explica o que estás a ver.
 
 A visita mostra, por esta ordem:
 

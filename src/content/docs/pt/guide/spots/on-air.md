@@ -22,7 +22,7 @@ Toca em **Spots** na barra de baixo. O ecrã **Spots e agenda** mostra quem est�
 
 ## O teu país ou mundial
 
-Debaixo dos separadores escolhes **o teu país** (por exemplo CTFF) ou **Mundial**. O Diana lembra-se da escolha e mantém-na igual à mesma opção nas Definições. O país que o botão representa segue a tua definição de país: enquanto não escolheres nenhum, o Diana tira-o do teu indicativo (CT… dá CTFF, ON… ONFF, DL… DLFF).
+Debaixo dos separadores escolhes **o teu país** (por exemplo CTFF) ou **Mundial**. Diana lembra-se da escolha e mantém-na igual à mesma opção nas Definições. O país que o botão representa segue a tua definição de país: enquanto não escolheres nenhum, Diana tira-o do teu indicativo (CT… dá CTFF, ON… ONFF, DL… DLFF).
 
 ## Abrir um spot
 

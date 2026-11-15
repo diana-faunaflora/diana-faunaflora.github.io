@@ -61,8 +61,8 @@ const en = {
   hAgo: '{n} h ago',
   statsLabel: 'Diana in numbers',
   stats: [
-    ['refs', '65,754', 'WWFF nature areas', 'worldwide on the map'],
-    ['progs', '180', 'WWFF programmes', 'from ONFF to VEFF'],
+    ['refs', '65,754', 'WWFF nature areas', 'on the map'],
+    ['progs', '180', 'WWFF programmes', 'all over the world'],
     ['countries', '5', 'countries with real boundaries', 'and growing all the time'],
     ['langs', '8', 'languages', 'app and user guide'],
   ],
@@ -194,8 +194,8 @@ const nl = {
   hAgo: '{n} u geleden',
   statsLabel: 'Diana in cijfers',
   stats: [
-    ['refs', '65.754', 'WWFF-natuurgebieden', 'wereldwijd op de kaart'],
-    ['progs', '180', 'WWFF-programma’s', 'van ONFF tot VEFF'],
+    ['refs', '65.754', 'WWFF-natuurgebieden', 'op de kaart'],
+    ['progs', '180', 'WWFF-programma’s', 'over de hele wereld'],
     ['countries', '5', 'landen met echte grenzen', 'en voortdurend in uitbreiding'],
     ['langs', '8', 'talen', 'app en handleiding'],
   ],

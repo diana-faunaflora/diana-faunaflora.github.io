@@ -1,20 +1,20 @@
 ---
 title: "O ecrã do mapa"
-description: "O ecrã principal do Diana: os botões em cima e a barra em baixo."
+description: "O ecrã principal de Diana: os botões em cima e a barra em baixo."
 sidebar:
   order: 1
 ---
 
-O mapa é o ecrã principal do Diana. Tudo o resto começa aqui.
+O mapa é o ecrã principal de Diana. Tudo o resto começa aqui.
 
-![O mapa do Diana à volta de Antuérpia, com áreas verdes, um spot e linhas](../../../../../assets/screens/phone-map.webp)
+![O mapa de Diana à volta de Antuérpia, com áreas verdes, um spot e linhas](../../../../../assets/screens/phone-map.webp)
 
 ## A barra em baixo
 
 Da esquerda para a direita: **Mapa**, **Spots**, **Spot**, **Agenda**, **Info de campo**, **Regras** e **Definições**. Toca num para abrir esse ecrã.
 
 :::tip[Voltar à tua posição]
-Toca em **Mapa** na barra de baixo a qualquer momento: o mapa centra-se de novo onde estás, e o zoom fica como está. O Diana faz uma nova medição GPS se a última tiver mais de dois minutos ou for menos precisa do que 30 m. Sem GPS, centra-se no teu locator das Definições, e avisa disso.
+Toca em **Mapa** na barra de baixo a qualquer momento: o mapa centra-se de novo onde estás, e o zoom fica como está. Diana faz uma nova medição GPS se a última tiver mais de dois minutos ou for menos precisa do que 30 m. Sem GPS, centra-se no teu locator das Definições, e avisa disso.
 :::
 
 ## Os botões em cima

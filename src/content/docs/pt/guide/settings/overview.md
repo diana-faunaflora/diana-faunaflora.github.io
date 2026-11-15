@@ -30,5 +30,5 @@ Tudo o que configuraste no assistente, e um pouco mais, está em **Definições*
 | No fundo | Versão, atualizações, novidades, repetir o assistente | [Versão e atualizações](/pt/guide/settings/version-and-updates/) |
 
 :::caution[Só neste dispositivo]
-Tudo o que preenches aqui fica no navegador deste dispositivo. Usas o Diana também noutro dispositivo? Preenche lá outra vez. O Diana não tem conta para os ligar. Vê [Os teus dados e os limites](/pt/guide/help/data-and-limits/).
+Tudo o que preenches aqui fica no navegador deste dispositivo. Usas Diana também noutro dispositivo? Preenche lá outra vez. Diana não tem conta para os ligar. Vê [Os teus dados e os limites](/pt/guide/help/data-and-limits/).
 :::

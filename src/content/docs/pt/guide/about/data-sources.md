@@ -1,11 +1,11 @@
 ---
 title: "Fontes de dados"
-description: "De onde vem cada informação no Diana."
+description: "De onde vem cada informação em Diana."
 sidebar:
   order: 1
 ---
 
-O Diana combina fontes abertas e públicas. Só estão incluídas fontes que podem ser usadas.
+Diana combina fontes abertas e públicas. Só estão incluídas fontes que podem ser usadas.
 
 | O quê | Fonte | Atualização |
 |---|---|---|

@@ -17,7 +17,7 @@ Toca em **Spots** na barra de baixo. O ecrã **Spots e agenda** mostra quem est�
 
 ## O teu país ou mundial
 
-Debaixo dos separadores escolhes **o teu país** (por exemplo CTFF) ou **Mundial**. O Diana lembra-se da escolha e mantém-na igual à mesma opção nas Definições. O país que o botão representa segue a tua definição de país: enquanto não escolheres nenhum, o Diana tira-o do teu indicativo (CT… dá CTFF, ON… ONFF, DL… DLFF).
+Debaixo dos separadores escolhes **o teu país** (por exemplo CTFF) ou **Mundial**. Diana lembra-se da escolha e mantém-na igual à mesma opção nas Definições. O país que o botão representa segue a tua definição de país: enquanto não escolheres nenhum, Diana tira-o do teu indicativo (CT… dá CTFF, ON… ONFF, DL… DLFF).
 
 ## Abrir um spot
 
@@ -63,7 +63,7 @@ No ar e pronto? Faz o teu spot, para que os caçadores te encontrem. O spot vai 
 ## Passo a passo
 
 1. Toca em **Spot** na barra de baixo, ou em **Faz o teu spot aqui** no painel de uma área.
-2. Confirma a **referência**. Se estás dentro de uma área, ou vieste de um painel, o Diana já a preencheu e diz de onde veio.
+2. Confirma a **referência**. Se estás dentro de uma área, ou vieste de um painel, Diana já a preencheu e diz de onde veio.
 3. Os teus **indicativos** vêm das Definições: o indicativo portátil como ativador, o teu indicativo normal como spotter.
 4. Preenche a **frequência** em kHz, por exemplo `7144`, e escolhe o **modo**.
 5. Opcional: uma **observação** curta, até 100 caracteres. Toca numa das tuas **palavras rápidas** para a juntar com um toque.
@@ -74,11 +74,11 @@ No ar e pronto? Faz o teu spot, para que os caçadores te encontrem. O spot vai 
 
 Cada pedido ao Spotline sai de um orçamento partilhado por todos os utilizadores. *Verificar* garante que um spot está certo antes de custar um envio real. Se mudares alguma coisa depois de verificar, *Enviar* volta a fechar: a aprovação era para o spot tal como estava.
 
-## O que o Diana verifica por ti
+## O que Diana verifica por ti
 
 - O formato do **indicativo**, o intervalo da **frequência** e o tamanho da **observação**, tal como o Spotline.
 - O **plano de bandas**: um aviso quando o teu modo não corresponde ao segmento da tua frequência.
-- A **referência**, contra a lista do próprio Diana. Isso responde de imediato, mesmo sem rede.
+- A **referência**, contra a lista de Diana. Isso responde de imediato, mesmo sem rede.
 
 :::caution[O que não pertence a uma observação]
 Nada de agradecimentos nem de pedidos de banda. Cada spot vai para o DX cluster, onde isso é ruído. O Spotline também filtra linguagem imprópria.
@@ -86,9 +86,9 @@ Nada de agradecimentos nem de pedidos de banda. Cada spot vai para o DX cluster,
 
 ## Quando algo corre mal
 
-- **Carregaste duas vezes com má ligação?** O Diana diz que o spot já lá estava. Nada é publicado duas vezes.
+- **Carregaste duas vezes com má ligação?** Diana diz que o spot já lá estava. Nada é publicado duas vezes.
 - **O Spotline recusa?** Recebes a explicação do próprio Spotline.
-- **O envio não funciona de todo?** O Diana oferece **Enviar à moda antiga**: o spot vai para o formulário do próprio Spotline num novo separador. Vês a resposta deles tu próprio, mas o Diana não a consegue confirmar.
+- **O envio não funciona de todo?** Diana oferece **Enviar à moda antiga**: o spot vai para o formulário do próprio Spotline num novo separador. Vês a resposta deles tu próprio, mas Diana não a consegue confirmar.
 
 Ainda não estás no ar, só estás a planear? Usa a agenda: {{link:spots/announce}}.
 '''},
@@ -107,19 +107,19 @@ Estás a planear uma ativação? Anuncia-a, para que os caçadores estejam pront
 
 1. Confirma o **indicativo do ativador** e **o teu próprio indicativo**. Outra pessoa pode anunciar por um ativador.
 2. Preenche a **referência WWFF**, por exemplo `CTFF-0012`.
-3. Escolhe o **início** e o **fim**. Escolhes pela hora do teu próprio dispositivo; o Diana converte para UTC antes de saírem do teu dispositivo.
+3. Escolhe o **início** e o **fim**. Escolhes pela hora do teu próprio dispositivo; Diana converte para UTC antes de saírem do teu dispositivo.
 4. Opcional: marca as **bandas** e os **modos** (podes escolher vários, por exemplo *40 m, 20 m · CW, SSB*) e junta uma observação.
 5. Toca em **Verificar** e, quando for aceite, em **Enviar anúncio**.
 6. **Aponta o teu PIN.**
 
 :::danger[Guarda o teu PIN]
-O PIN é a única forma de alterar ou cancelar este anúncio mais tarde, no próprio site do Spotline. O Diana não o pode fazer por ti, e um PIN perdido não se recupera. Por isso o Diana guarda, debaixo do formulário, uma lista de tudo o que anunciaste a partir deste dispositivo (referência, data, PIN). Toca em **✕** para remover uma linha. Essa lista existe só neste dispositivo.
+O PIN é a única forma de alterar ou cancelar este anúncio mais tarde, no próprio site do Spotline. Diana não o pode fazer por ti, e um PIN perdido não se recupera. Por isso Diana guarda, debaixo do formulário, uma lista de tudo o que anunciaste a partir deste dispositivo (referência, data, PIN). Toca em **✕** para remover uma linha. Essa lista existe só neste dispositivo.
 :::
 
 ## Limites
 
 - No máximo **um mês** de antecedência, e o fim não pode ser antes do início. O Spotline aplica as mesmas regras.
-- No máximo **16 anúncios por dia** a partir de um dispositivo através do Diana, para proteger o orçamento partilhado. O uso normal fica muito abaixo disso.
+- No máximo **16 anúncios por dia** a partir de um dispositivo através de Diana, para proteger o orçamento partilhado. O uso normal fica muito abaixo disso.
 - Para anúncios não existe "moda antiga". Se não funcionar, tenta mais tarde.
 
 Que bandas a lista oferece (todas, ou apenas HF) é uma definição: {{link:settings/band-list}}.

@@ -74,9 +74,8 @@ const pdfLang = { en: 'EN', nl: 'NL', fr: 'FR', de: 'DE', da: 'DA', it: 'IT', es
   <div class="hero-text">
     <p class="kicker"><span class="dot"></span>{t.kicker}</p>
     <h1>
-      <span>{t.h1[0]}</span>
-      <span>{t.h1[1]}</span>
-      <span class="mark">{t.h1[2]}</span>
+      {t.h1.slice(0, -1).map((line) => <span>{line}</span>)}
+      <span class="mark">{t.h1[t.h1.length - 1]}</span>
     </h1>
     <p class="lead" set:html={t.lead} />
     <ul class="checks">

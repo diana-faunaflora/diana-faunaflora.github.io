@@ -47,8 +47,8 @@ export const es = {
   hAgo: 'hace {n} h',
   statsLabel: 'Diana en cifras',
   stats: [
-    ['refs', '65.754', 'áreas naturales WWFF', 'en el mapa, en todo el mundo'],
-    ['progs', '180', 'programas WWFF', 'de ONFF a VEFF'],
+    ['refs', '65.754', 'áreas naturales WWFF', 'en el mapa'],
+    ['progs', '180', 'programas WWFF', 'en todo el mundo'],
     ['countries', '5', 'países con límites reales', 'y cada vez más'],
     ['langs', '8', 'idiomas', 'app y guía'],
   ],

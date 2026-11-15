@@ -1,16 +1,16 @@
 ---
-title: "O que é o Diana"
-description: "O Diana num minuto: uma aplicação de mapas gratuita para ativadores e caçadores WWFF."
+title: "O que é Diana"
+description: "Diana num minuto: uma aplicação de mapas gratuita para ativadores e caçadores WWFF."
 sidebar:
   order: 1
 ---
 
-O Diana é uma aplicação de mapas gratuita para radioamadores do WWFF, World Wide Flora & Fauna. Mostra as áreas naturais que podes ativar, com os seus limites reais, e quem está no ar a partir dessas áreas neste momento.
+Diana é uma aplicação de mapas gratuita para radioamadores do WWFF, World Wide Flora & Fauna. Mostra as áreas protegidas que podes ativar, com os seus limites reais, e quem está no ar a partir dessas áreas neste momento.
 
 ## Para quem
 
-- **Ativadores**: levas uma estação portátil para uma área natural. O Diana mostra onde fica a área, se estás mesmo lá dentro, e deixa-te fazer o teu próprio spot.
-- **Caçadores**: contactas os ativadores a partir de casa. O Diana mostra quem está no ar, onde, e se uma referência já foi alguma vez ativada.
+- **Ativadores**: levas uma estação portátil para uma área protegida. Diana mostra onde fica a área, se estás mesmo lá dentro, e deixa-te fazer o teu próprio spot.
+- **Caçadores**: contactas os ativadores a partir de casa. Diana mostra quem está no ar, onde, e se uma referência já foi alguma vez ativada.
 
 ## O que podes fazer com ele
 
@@ -20,16 +20,16 @@ O Diana é uma aplicação de mapas gratuita para radioamadores do WWFF, World W
 - Fazer o teu spot e anunciar uma ativação através do WWFF Spotline.
 - Consultar o teu locator, a tua zona CQ e zona ITU, e as condições de propagação de hoje.
 
-## O que o Diana é, e o que não é
+## O que Diana é, e o que não é
 
 - **Uma aplicação web.** Funciona no navegador do telemóvel, tablet ou computador. Podes instalá-la para ter o seu próprio ícone, mas não precisas de nenhuma loja de aplicações.
 - **Gratuita e sem conta.** Tudo o que preenches fica no teu próprio dispositivo.
-- **Um projeto de voluntários.** O Diana apoia o hobby WWFF. Não é um serviço oficial da WWFF nem se destina a uso comercial.
+- **Um projeto de voluntários.** Diana apoia o hobby WWFF. Não é um serviço oficial do WWFF nem se destina a uso comercial.
 
 :::tip[Por onde começar]
-Novo no Diana? Lê [Instalar no Android](/pt/guide/start/install-android/) (ou a página do teu dispositivo) e depois [Ecrã de boas-vindas](/pt/guide/start/welcome-screen/). Essas duas páginas chegam para começar.
+Novo em Diana? Lê [Instalar no Android](/pt/guide/start/install-android/) (ou a página do teu dispositivo) e depois [Ecrã de boas-vindas](/pt/guide/start/welcome-screen/). Essas duas páginas chegam para começar.
 :::
 
-## Abrir o Diana
+## Abrir Diana
 
 A aplicação está em **[diana-onff.github.io](https://diana-onff.github.io/)**. Não precisas de mais nada além desse endereço.

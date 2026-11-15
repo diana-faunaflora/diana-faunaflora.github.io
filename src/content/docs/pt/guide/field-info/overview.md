@@ -17,8 +17,8 @@ A **Info de campo** é sobre o local onde estás. Tem três separadores:
 
 1. Toca em **Info de campo** na barra de baixo (o círculo com um ponto).
 2. Toca no separador que queres, em cima: **Áreas**, **Localização** ou **Condições**.
-3. Debaixo do título, confirma de onde o Diana parte: *"a partir da sua posição GPS"* ou *"a partir do seu locator IN51RQ"*.
+3. Debaixo do título, confirma de onde Diana parte: *"a partir da sua posição GPS"* ou *"a partir do seu locator IN51RQ"*.
 
 :::caution[Sem posição?]
-Se o Diana disser que ainda não sabe onde estás, permite a localização (vê [Ecrã de boas-vindas](/pt/guide/start/welcome-screen/)) ou preenche o teu locator em **Definições** › **A tua estação**. Só com um locator, o Diana trabalha a partir do centro desse quadrado, que pode estar a alguns quilómetros.
+Se Diana disser que ainda não sabe onde estás, permite a localização (vê [Ecrã de boas-vindas](/pt/guide/start/welcome-screen/)) ou preenche o teu locator em **Definições** › **A tua estação**. Só com um locator, Diana trabalha a partir do centro desse quadrado, que pode estar a alguns quilómetros.
 :::

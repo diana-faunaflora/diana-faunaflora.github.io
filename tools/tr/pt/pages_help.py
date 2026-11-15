@@ -1,6 +1,6 @@
 T = {
 'help/location-problems': {'title': 'Problemas de localização', 'desc': 'Sem posição, ou uma posição que continua grosseira: o que verificar, por dispositivo.', 'body': '''
-O Diana pede sempre a posição mais exata que o teu dispositivo consegue dar. Se um site recebe a posição exata ou uma propositadamente desfocada é uma definição do teu telemóvel ou navegador, não do Diana.
+Diana pede sempre a posição mais exata que o teu dispositivo consegue dar. Se um site recebe a posição exata ou uma propositadamente desfocada é uma definição do teu telemóvel ou navegador, não de Diana.
 
 ## Primeiro: tenta lá fora
 
@@ -33,37 +33,37 @@ Clica no ícone do cadeado ao lado da barra de endereço e permite **Localizaç�
 
 ## "A localização está bloqueada para este site"
 
-Tu (ou alguém) disseste que não anteriormente. O Diana não pode voltar a perguntar: só tu podes permitir, nas definições do navegador ou do telemóvel acima. Depois recarrega o Diana.
+Tu (ou alguém) disseste que não anteriormente. Diana não pode voltar a perguntar: só tu podes permitir, nas definições do navegador ou do telemóvel acima. Depois recarrega Diana.
 
 ## Sem localização
 
-O Diana também funciona sem localização. Preenche o teu locator em **Definições** › **A tua estação**. As distâncias e linhas partem então do centro do quadrado do teu locator. Só o *estou dentro da área* precisa mesmo de uma posição exata.
+Diana também funciona sem localização. Preenche o teu locator em **Definições** › **A tua estação**. As distâncias e linhas partem então do centro do quadrado do teu locator. Só o *estou dentro da área* precisa mesmo de uma posição exata.
 
 Vê também {{link:map/am-i-inside}}.
 '''},
-'help/scripts-blocked': {'title': 'Parado no ecrã de arranque', 'desc': 'Bloqueadores de scripts e navegadores restritos: o que o Diana precisa, e nada mais.', 'body': '''
-O Diana é uma aplicação web: sem JavaScript nada corre. Se um bloqueador parar os scripts, o Diana fica no ecrã de arranque. Passado algum tempo aparece aí uma caixa a dizer isso.
+'help/scripts-blocked': {'title': 'Parado no ecrã de arranque', 'desc': 'Bloqueadores de scripts e navegadores restritos: o que Diana precisa, e nada mais.', 'body': '''
+Diana é uma aplicação web: sem JavaScript nada corre. Se um bloqueador parar os scripts, Diana fica no ecrã de arranque. Passado algum tempo aparece aí uma caixa a dizer isso.
 
 ## Resolver
 
-1. Permite scripts apenas para **diana-onff.github.io**. Não `github.io` nem `github.com`: o Diana não precisa de nenhum deles.
+1. Permite scripts apenas para **diana-onff.github.io**. Não `github.io` nem `github.com`: Diana não precisa de nenhum deles.
 2. **Recarrega a página**: **F5** ou **Ctrl+R** (Mac: **Cmd+R**). No telemóvel, puxa a página para baixo ou toca em recarregar. Sem recarregar, o bloqueio antigo mantém-se, mesmo depois de clicares em "Confiar".
 3. Continua parado? Pode haver uma segunda extensão a bloquear (um bloqueador de anúncios, uma extensão de privacidade). Desativa-as uma a uma para este site.
-4. O Diana arranca mas o mapa fica vazio? Permite workers `blob:` para diana-onff.github.io (ver abaixo).
+4. Diana arranca mas o mapa fica vazio? Permite workers `blob:` para diana-onff.github.io (ver abaixo).
 
-## O que o Diana carrega
+## O que Diana carrega
 
 **Scripts**: todos do próprio diana-onff.github.io.
 
 | Ficheiro | O que é |
 |---|---|
-| `vendor/maplibre-gl.js` | MapLibre, a biblioteca de mapas. Uma cópia no próprio site do Diana, não de uma CDN. |
-| `js/*.js` | O código do próprio Diana. |
-| `sw.js` | O service worker que mantém o Diana a funcionar offline. |
+| `vendor/maplibre-gl.js` | MapLibre, a biblioteca de mapas. Uma cópia no site de Diana, não de uma CDN. |
+| `js/*.js` | O código de Diana. |
+| `sw.js` | O service worker que mantém Diana a funcionar offline. |
 
 Sem scripts inline e sem `eval`. Uma exceção, só com o teu consentimento: se disseste sim às estatísticas, o script do Umami de `cloud.umami.is`.
 
-**Worker do mapa**: o MapLibre desenha o mapa num worker em segundo plano lançado a partir de um endereço `blob:`. Um bloqueador que recuse workers `blob:` deixa o Diana arrancar mas deixa o mapa em branco.
+**Worker do mapa**: o MapLibre desenha o mapa num worker em segundo plano lançado a partir de um endereço `blob:`. Um bloqueador que recuse workers `blob:` deixa Diana arrancar mas deixa o mapa em branco.
 
 **Dados**:
 
@@ -77,72 +77,72 @@ Sem scripts inline e sem `eval`. Uma exceção, só com o teu consentimento: se 
 
 A tua posição nunca é enviada para lado nenhum.
 '''},
-'help/updates': {'title': 'Atualizações', 'desc': 'Como o Diana se atualiza sozinho, e o que fazer se uma versão nova não aparecer.', 'body': '''
-O Diana atualiza-se sozinho. Nunca tens de transferir nada.
+'help/updates': {'title': 'Atualizações', 'desc': 'Como Diana se atualiza sozinho, e o que fazer se uma versão nova não aparecer.', 'body': '''
+Diana atualiza-se sozinho. Nunca tens de transferir nada.
 
 ## Como funciona
 
-- **Os dados** (referências, número de QSO, limites) são atualizados todas as noites. O Diana vai buscá-los frescos em cada arranque, e usa a cópia do teu telemóvel quando a rede é fraca.
-- **A própria aplicação**: quando abres o Diana com rede, verifica se há uma versão nova. Uma versão nova só é anunciada quando existe mesmo.
+- **Os dados** (referências, número de QSO, limites) são atualizados todas as noites. Diana vai buscá-los frescos em cada arranque, e usa a cópia do teu telemóvel quando a rede é fraca.
+- **A própria aplicação**: quando abres Diana com rede, verifica se há uma versão nova. Uma versão nova só é anunciada quando existe mesmo.
 
 ## Uma versão nova não aparece?
 
 1. Garante que tens rede.
 2. Abre as **Definições** e toca em **Procurar atualizações** no fundo.
 3. Compara a linha da versão com a das **Novidades**. Vê {{link:settings/version-and-updates}}.
-4. Continua a versão antiga? Fecha o Diana por completo (desliza-o para fora das aplicações recentes) e volta a abri-lo.
+4. Continua a versão antiga? Fecha Diana por completo (desliza-a para fora das aplicações recentes) e volta a abri-la.
 
 :::note
 As versões da aplicação estão nas **Novidades**, a mais recente no topo, em neerlandês e inglês.
 :::
 '''},
-'help/data-and-limits': {'title': 'Os teus dados e os limites', 'desc': 'O que fica no teu dispositivo, porque nada sincroniza, e o que o Diana não consegue fazer.', 'body': '''
+'help/data-and-limits': {'title': 'Os teus dados e os limites', 'desc': 'O que fica no teu dispositivo, porque nada sincroniza, e o que Diana não consegue fazer.', 'body': '''
 ## Tudo fica num dispositivo, num navegador
 
 Os teus indicativos, locator, país, palavras rápidas, idioma, escolha sobre estatísticas e os PIN dos teus anúncios ficam no armazenamento local desse único navegador. Nada sincroniza.
 
-- Usas o Diana no telemóvel e no portátil? Configura-o nos dois. Não há conta para os ligar.
-- **Apagar os dados do navegador** (histórico, cookies e dados de sites), usar uma **janela privada** ou **remover a aplicação instalada** apaga estas definições. O Diana recomeça então no ecrã de boas-vindas.
+- Usas Diana no telemóvel e no portátil? Configura-o nos dois. Não há conta para os ligar.
+- **Apagar os dados do navegador** (histórico, cookies e dados de sites), usar uma **janela privada** ou **remover a aplicação instalada** apaga estas definições. Diana recomeça então no ecrã de boas-vindas.
 
 :::caution[Os PIN dos teus anúncios]
 Estão nesse mesmo armazenamento. Apaga o navegador e desaparecem. Aponta os PIN importantes também noutro sítio.
 :::
 
-## O que o Diana não consegue fazer
+## O que Diana não consegue fazer
 
 - **Os dados em direto dependem de outros.** Os spots e a agenda vêm do WWFF Spotline. Se estiver em baixo, o ecrã Spots diz isso. As condições de propagação vêm da NOAA; o separador diz que idade têm.
-- **Só há limites onde foi fornecido um ficheiro**: hoje cinco países. Noutros sítios as referências são pontos, e o Diana não consegue dizer se estás dentro. Vê {{link:map/points-and-areas}}.
+- **Só há limites onde foi fornecido um ficheiro**: hoje cinco países. Noutros sítios as referências são pontos, e Diana não consegue dizer se estás dentro. Vê {{link:map/points-and-areas}}.
 - **Nem todas as reservas têm detalhes completos.** Muitas têm só um nome e uma referência. É uma lacuna nos dados de origem.
-- **O Diana não faz log** nem carrega logs. Isso fica com o teu próprio programa de log e com a WWFF.
+- **Diana não faz log** nem carrega logs. Isso fica com o teu próprio programa de log e com o WWFF.
 
 ## Utilização dos dados
 
 Os limites e os números de ativações vêm dos programas WWFF, da WDPA, de fontes governamentais e do WWFF Spotline, e continuam a ser dados dos seus proprietários. Vê {{link:about/data-sources}}.
 '''},
 'help/faq': {'title': 'Perguntas frequentes', 'desc': 'Respostas curtas às perguntas que surgem mais vezes.', 'body': '''
-## O Diana custa alguma coisa?
+## Diana custa alguma coisa?
 
-Não. O Diana é gratuito, sem publicidade e sem conta.
+Não. Diana é gratuita, sem publicidade e sem conta.
 
-## O Diana é uma aplicação oficial da WWFF?
+## Diana é uma aplicação oficial do WWFF?
 
-Não. O Diana é um projeto de voluntários que apoia o hobby WWFF. Usa os serviços públicos da WWFF, como o Spotline e o diretório.
+Não. Diana é um projeto de voluntários que apoia o hobby WWFF. Usa os serviços públicos do WWFF, como o Spotline e o diretório.
 
-## O Diana envia a minha posição para algum lado?
+## Diana envia a minha posição para algum lado?
 
 Não. A tua posição é usada apenas no teu próprio ecrã. Um spot envia o teu indicativo, frequência, modo, referência e observação, nunca a tua posição. Vê {{link:start/privacy}}.
 
-## O Diana funciona sem rede?
+## Diana funciona sem rede?
 
 Sim, com os últimos dados carregados: o mapa que já viste, as referências, a Localização da Info de campo e o plano de bandas. Os spots em direto e o envio de um spot precisam de rede.
 
 ## Porque é que a minha referência é um ponto e não uma área?
 
-Porque o Diana não tem limite para ela, ou porque fica noutro país que não o que carregaste. Vê {{link:map/points-and-areas}}.
+Porque Diana não tem limite para ela, ou porque fica noutro país que não o que carregaste. Vê {{link:map/points-and-areas}}.
 
-## Posso fazer log no Diana?
+## Posso fazer log em Diana?
 
-Não. O Diana ajuda antes e durante a ativação. O teu log fica no teu programa de log. Em **Regras**, o Diana mostra o nome de ficheiro certo.
+Não. Diana ajuda antes e durante a ativação. O teu log fica no teu programa de log. Em **Regras**, Diana mostra o nome de ficheiro certo.
 
 ## As minhas definições desapareceram. O que aconteceu?
 
@@ -150,7 +150,7 @@ Os dados do navegador foram apagados, a aplicação foi removida, ou usaste uma 
 
 ## O meu programa nacional também pode ter limites?
 
-Sim. O coordenador nacional envia o ficheiro das áreas (KMZ) à equipa do Diana. Mais em {{link:about/about-diana}}.
+Sim. O coordenador nacional envia o ficheiro das áreas (KMZ) à equipa de Diana. Mais em {{link:about/about-diana}}.
 
 ## Encontrei um erro. Onde o comunico?
 

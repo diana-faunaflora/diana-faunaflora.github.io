@@ -12,9 +12,9 @@ O separador **Condições** começa com a meteorologia espacial de hoje: um most
 
 ## O mostrador Kp
 
-O Kp mede o quão agitado está o campo magnético da Terra, numa escala de 0 a 9. Quanto mais baixo, melhor para as bandas mais altas. O Diana mostra o valor oficial de três horas da NOAA, e ao lado uma estimativa dos últimos minutos.
+O Kp mede o quão agitado está o campo magnético da Terra, numa escala de 0 a 9. Quanto mais baixo, melhor para as bandas mais altas. Diana mostra o valor oficial de três horas da NOAA, e ao lado uma estimativa dos últimos minutos.
 
-| Kp | Palavra no Diana | O que significa |
+| Kp | Palavra em Diana | O que significa |
 |---|---|---|
 | 0 a 2 | calma | Sem efeito. Condições normais. |
 | 3 | instável | Ligeiramente agitado. Normalmente ainda sem efeito notório. |
@@ -34,13 +34,13 @@ O Kp é um valor mundial, não uma medição na tua posição.
 | **A** | Quão agitado esteve o campo magnético ao longo do dia todo. Baixo é bom. |
 | **Manchas solares** | Acompanham o SFI: mais manchas, mais hipóteses de DX nas bandas altas. |
 
-O SFI, o A e as manchas solares são valores diários; o Diana diz de que dia são.
+O SFI, o A e as manchas solares são valores diários; Diana diz de que dia são.
 
 ## Que idade têm os números?
 
-Debaixo do mostrador diz quando os números foram atualizados, por exemplo *"Atualizado às 14:37 (há 12 min)"*. O Diana tenta obtê-los duas vezes por hora, mas na prática pode haver algumas horas entre duas atualizações.
+Debaixo do mostrador diz quando os números foram atualizados, por exemplo *"Atualizado às 14:37 (há 12 min)"*. Diana tenta obtê-los duas vezes por hora, mas na prática pode haver algumas horas entre duas atualizações.
 
 - Com mais de **oito horas**: a mensagem fica laranja.
-- Valor Kp com mais de **doze horas**: o Diana diz isso à parte.
+- Valor Kp com mais de **doze horas**: Diana diz isso à parte.
 
 A fonte é a NOAA SWPC. O que significa por banda: [As barras das bandas](/pt/guide/field-info/conditions-bands/).

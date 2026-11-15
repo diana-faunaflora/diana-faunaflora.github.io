@@ -47,8 +47,8 @@ export const da = {
   hAgo: 'for {n} t siden',
   statsLabel: 'Diana i tal',
   stats: [
-    ['refs', '65.754', 'WWFF-naturområder', 'på kortet, i hele verden'],
-    ['progs', '180', 'WWFF-programmer', 'fra ONFF til VEFF'],
+    ['refs', '65.754', 'WWFF-naturområder', 'på kortet'],
+    ['progs', '180', 'WWFF-programmer', 'i hele verden'],
     ['countries', '5', 'lande med rigtige grænser', 'og hele tiden flere'],
     ['langs', '8', 'sprog', 'app og brugervejledning'],
   ],

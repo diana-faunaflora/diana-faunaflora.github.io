@@ -18,7 +18,7 @@ O separador **Áreas** lista as referências WWFF à volta da tua posição, den
 | Número de QSO | Quantos contactos foram feitos a partir de lá, segundo o diretório WWFF. |
 | Última atividade | A data da última ativação. |
 | *sem data de ativação conhecida* | O diretório tem a referência, mas não uma data. |
-| *não consta do diretório WWFF* | O Diana conhece a área, mas o diretório não tem nada sobre ela. Isso não quer dizer que nunca tenha sido ativada. |
+| *não consta do diretório WWFF* | Diana conhece a área, mas o diretório não tem nada sobre ela. Isso não quer dizer que nunca tenha sido ativada. |
 
 ## Ordenar: que ordem escolher?
 

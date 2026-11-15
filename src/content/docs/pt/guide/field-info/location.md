@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-O separador **Localização** dá tudo o que precisas sobre o teu próprio local durante um QSO ou no teu log. O Diana calcula-o no próprio dispositivo, por isso também funciona sem rede.
+O separador **Localização** dá tudo o que precisas sobre o teu próprio local durante um QSO ou no teu log. Diana calcula-o no próprio dispositivo, por isso também funciona sem rede.
 
 ![Info de campo, separador Localização, com hora UTC e local, locator, precisão e zonas](../../../../../assets/screens/phone-field-location.webp)
 

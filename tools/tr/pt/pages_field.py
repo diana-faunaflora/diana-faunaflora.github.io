@@ -12,10 +12,10 @@ A **Info de campo** é sobre o local onde estás. Tem três separadores:
 
 1. Toca em **Info de campo** na barra de baixo (o círculo com um ponto).
 2. Toca no separador que queres, em cima: **Áreas**, **Localização** ou **Condições**.
-3. Debaixo do título, confirma de onde o Diana parte: *"a partir da sua posição GPS"* ou *"a partir do seu locator IN51RQ"*.
+3. Debaixo do título, confirma de onde Diana parte: *"a partir da sua posição GPS"* ou *"a partir do seu locator IN51RQ"*.
 
 :::caution[Sem posição?]
-Se o Diana disser que ainda não sabe onde estás, permite a localização (vê {{link:start/welcome-screen}}) ou preenche o teu locator em **Definições** › **A tua estação**. Só com um locator, o Diana trabalha a partir do centro desse quadrado, que pode estar a alguns quilómetros.
+Se Diana disser que ainda não sabe onde estás, permite a localização (vê {{link:start/welcome-screen}}) ou preenche o teu locator em **Definições** › **A tua estação**. Só com um locator, Diana trabalha a partir do centro desse quadrado, que pode estar a alguns quilómetros.
 :::
 '''},
 'field-info/areas-nearby': {'title': 'Áreas por perto', 'desc': 'As referências WWFF à tua volta, ordenadas como quiseres.', 'body': '''
@@ -32,7 +32,7 @@ O separador **Áreas** lista as referências WWFF à volta da tua posição, den
 | Número de QSO | Quantos contactos foram feitos a partir de lá, segundo o diretório WWFF. |
 | Última atividade | A data da última ativação. |
 | *sem data de ativação conhecida* | O diretório tem a referência, mas não uma data. |
-| *não consta do diretório WWFF* | O Diana conhece a área, mas o diretório não tem nada sobre ela. Isso não quer dizer que nunca tenha sido ativada. |
+| *não consta do diretório WWFF* | Diana conhece a área, mas o diretório não tem nada sobre ela. Isso não quer dizer que nunca tenha sido ativada. |
 
 ## Ordenar: que ordem escolher?
 
@@ -57,7 +57,7 @@ O número de QSO e as datas vêm do diretório WWFF, atualizado todas as noites.
 :::
 '''},
 'field-info/location': {'title': 'Localização em termos de rádio', 'desc': 'Hora, locator, posição e zonas do local onde estás.', 'body': '''
-O separador **Localização** dá tudo o que precisas sobre o teu próprio local durante um QSO ou no teu log. O Diana calcula-o no próprio dispositivo, por isso também funciona sem rede.
+O separador **Localização** dá tudo o que precisas sobre o teu próprio local durante um QSO ou no teu log. Diana calcula-o no próprio dispositivo, por isso também funciona sem rede.
 
 {{img:phone-field-location|Info de campo, separador Localização, com hora UTC e local, locator, precisão e zonas}}
 
@@ -81,9 +81,9 @@ O separador **Condições** começa com a meteorologia espacial de hoje: um most
 
 ## O mostrador Kp
 
-O Kp mede o quão agitado está o campo magnético da Terra, numa escala de 0 a 9. Quanto mais baixo, melhor para as bandas mais altas. O Diana mostra o valor oficial de três horas da NOAA, e ao lado uma estimativa dos últimos minutos.
+O Kp mede o quão agitado está o campo magnético da Terra, numa escala de 0 a 9. Quanto mais baixo, melhor para as bandas mais altas. Diana mostra o valor oficial de três horas da NOAA, e ao lado uma estimativa dos últimos minutos.
 
-| Kp | Palavra no Diana | O que significa |
+| Kp | Palavra em Diana | O que significa |
 |---|---|---|
 | 0 a 2 | calma | Sem efeito. Condições normais. |
 | 3 | instável | Ligeiramente agitado. Normalmente ainda sem efeito notório. |
@@ -103,14 +103,14 @@ O Kp é um valor mundial, não uma medição na tua posição.
 | **A** | Quão agitado esteve o campo magnético ao longo do dia todo. Baixo é bom. |
 | **Manchas solares** | Acompanham o SFI: mais manchas, mais hipóteses de DX nas bandas altas. |
 
-O SFI, o A e as manchas solares são valores diários; o Diana diz de que dia são.
+O SFI, o A e as manchas solares são valores diários; Diana diz de que dia são.
 
 ## Que idade têm os números?
 
-Debaixo do mostrador diz quando os números foram atualizados, por exemplo *"Atualizado às 14:37 (há 12 min)"*. O Diana tenta obtê-los duas vezes por hora, mas na prática pode haver algumas horas entre duas atualizações.
+Debaixo do mostrador diz quando os números foram atualizados, por exemplo *"Atualizado às 14:37 (há 12 min)"*. Diana tenta obtê-los duas vezes por hora, mas na prática pode haver algumas horas entre duas atualizações.
 
 - Com mais de **oito horas**: a mensagem fica laranja.
-- Valor Kp com mais de **doze horas**: o Diana diz isso à parte.
+- Valor Kp com mais de **doze horas**: Diana diz isso à parte.
 
 A fonte é a NOAA SWPC. O que significa por banda: {{link:field-info/conditions-bands}}.
 '''},
@@ -120,7 +120,7 @@ Debaixo da meteorologia espacial, o separador **Condições** mostra uma barra d
 ## Ler a barra de uma banda
 
 1. Cada barra é **uma banda**. Ao lado da banda diz para que serve, por exemplo *"NVIS e EU"*.
-2. A barra vai da esquerda para a direita por cinco partes do dia: **manhã, meio-dia, tarde, anoitecer e noite**. O Diana calcula-as a partir do nascer e do pôr do sol na tua posição.
+2. A barra vai da esquerda para a direita por cinco partes do dia: **manhã, meio-dia, tarde, anoitecer e noite**. Diana calcula-as a partir do nascer e do pôr do sol na tua posição.
 3. A **cor** é a expectativa: verde é boa, amarelo razoável, vermelho fraca.
 4. O fino **traço** vertical é **agora**. À direita diz o que vale agora, por exemplo *"agora: boa"*.
 
@@ -132,7 +132,7 @@ Debaixo da meteorologia espacial, o separador **Condições** mostra uma barra d
 | **EU** | Dentro da Europa. |
 | **DX** | Mais longe, fora da Europa. |
 
-| Banda | Etiqueta no Diana |
+| Banda | Etiqueta em Diana |
 |---|---|
 | 80 m | NVIS, EU à noite |
 | 40 m | NVIS e EU |
@@ -141,13 +141,13 @@ Debaixo da meteorologia espacial, o separador **Condições** mostra uma barra d
 | 10 m | DX |
 
 :::caution[Uma indicação, não uma promessa]
-As barras são uma estimativa aproximada do próprio Diana, com base no SFI, no Kp, na estação do ano e na hora do dia na tua posição. Não é uma previsão da NOAA. Uma banda marcada como "fraca" pode estar aberta na mesma: escuta sempre um momento.
+As barras são uma estimativa aproximada de Diana, com base no SFI, no Kp, na estação do ano e na hora do dia na tua posição. Não é uma previsão da NOAA. Uma banda marcada como "fraca" pode estar aberta na mesma: escuta sempre um momento.
 :::
 
 :::tip[Exemplo no terreno]
 Kp 2, calma, SFI 91, ao anoitecer nas Ardenas: os 40 m estão em boa e são a tua melhor hipótese para a Bélgica e a Europa. Os 15 m estão em fraca ao anoitecer; não vale a pena começar por aí.
 :::
 
-Sem posição, o Diana mostra na mesma as barras, mas sem o traço do agora.
+Sem posição, Diana mostra na mesma as barras, mas sem o traço do agora.
 '''},
 }

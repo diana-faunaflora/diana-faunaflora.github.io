@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-O Diana pede sempre a posição mais exata que o teu dispositivo consegue dar. Se um site recebe a posição exata ou uma propositadamente desfocada é uma definição do teu telemóvel ou navegador, não do Diana.
+Diana pede sempre a posição mais exata que o teu dispositivo consegue dar. Se um site recebe a posição exata ou uma propositadamente desfocada é uma definição do teu telemóvel ou navegador, não de Diana.
 
 ## Primeiro: tenta lá fora
 
@@ -38,10 +38,10 @@ Clica no ícone do cadeado ao lado da barra de endereço e permite **Localizaç�
 
 ## "A localização está bloqueada para este site"
 
-Tu (ou alguém) disseste que não anteriormente. O Diana não pode voltar a perguntar: só tu podes permitir, nas definições do navegador ou do telemóvel acima. Depois recarrega o Diana.
+Tu (ou alguém) disseste que não anteriormente. Diana não pode voltar a perguntar: só tu podes permitir, nas definições do navegador ou do telemóvel acima. Depois recarrega Diana.
 
 ## Sem localização
 
-O Diana também funciona sem localização. Preenche o teu locator em **Definições** › **A tua estação**. As distâncias e linhas partem então do centro do quadrado do teu locator. Só o *estou dentro da área* precisa mesmo de uma posição exata.
+Diana também funciona sem localização. Preenche o teu locator em **Definições** › **A tua estação**. As distâncias e linhas partem então do centro do quadrado do teu locator. Só o *estou dentro da área* precisa mesmo de uma posição exata.
 
 Vê também [Estou dentro da área?](/pt/guide/map/am-i-inside/).

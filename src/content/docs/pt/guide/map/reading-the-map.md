@@ -34,7 +34,7 @@ A partir do nível de zoom 11, cada ponto recebe a sua referência como etiqueta
 | A tua posição | Um marcador. Quando a tua posição é menos precisa do que cerca de 10 m, um anel tracejado mostra a margem. |
 
 :::tip[Demasiadas linhas?]
-Desliga-as em **≡** › **Linhas até aos spots**. O Diana lembra-se da escolha. **⤢ Ver todos os spots** enquadra todos os spots e a tua própria posição de uma vez.
+Desliga-as em **≡** › **Linhas até aos spots**. Diana lembra-se da escolha. **⤢ Ver todos os spots** enquadra todos os spots e a tua própria posição de uma vez.
 :::
 
 Porque é que algumas referências são áreas e outras pontos: [Pontos e áreas](/pt/guide/map/points-and-areas/).

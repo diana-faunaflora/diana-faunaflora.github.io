@@ -7,9 +7,9 @@ sidebar:
 
 **Definições** › **A tua estação**. Quem és e mais ou menos onde estás.
 
-| Campo | O que preencher | O que o Diana faz com ele |
+| Campo | O que preencher | O que Diana faz com ele |
 |---|---|---|
-| **Indicativo** | O teu indicativo normal, por exemplo `CT1ABC`. | Usado como spotter, e decide que país o Diana propõe. |
+| **Indicativo** | O teu indicativo normal, por exemplo `CT1ABC`. | Usado como spotter, e decide que país Diana propõe. |
 | **Indicativo portátil** | O que usas no terreno, por exemplo `CT1ABC/P`. | Preenchido como ativador quando fazes o teu spot ou anuncias. |
 | **Locator Maidenhead** | Seis caracteres, por exemplo `IN51RQ`. | O teu ponto de partida enquanto não houver GPS: para o mapa, as distâncias e as linhas até aos spots. |
 
@@ -19,7 +19,7 @@ sidebar:
 
 1. Põe-te no sítio para o qual queres o locator, de preferência ao ar livre.
 2. Toca em **Obter do GPS**.
-3. O Diana preenche o locator a partir da tua posição atual.
+3. Diana preenche o locator a partir da tua posição atual.
 
 ## A linha da posição
 

@@ -25,15 +25,15 @@ Tudo o que configuraste no assistente, e um pouco mais, está em **Definições*
 | No fundo | Versão, atualizações, novidades, repetir o assistente | {{link:settings/version-and-updates}} |
 
 :::caution[Só neste dispositivo]
-Tudo o que preenches aqui fica no navegador deste dispositivo. Usas o Diana também noutro dispositivo? Preenche lá outra vez. O Diana não tem conta para os ligar. Vê {{link:help/data-and-limits}}.
+Tudo o que preenches aqui fica no navegador deste dispositivo. Usas Diana também noutro dispositivo? Preenche lá outra vez. Diana não tem conta para os ligar. Vê {{link:help/data-and-limits}}.
 :::
 '''},
 'settings/your-station': {'title': 'A tua estação', 'desc': 'Indicativo, indicativo portátil e locator, e como ler a linha da posição.', 'body': '''
 **Definições** › **A tua estação**. Quem és e mais ou menos onde estás.
 
-| Campo | O que preencher | O que o Diana faz com ele |
+| Campo | O que preencher | O que Diana faz com ele |
 |---|---|---|
-| **Indicativo** | O teu indicativo normal, por exemplo `CT1ABC`. | Usado como spotter, e decide que país o Diana propõe. |
+| **Indicativo** | O teu indicativo normal, por exemplo `CT1ABC`. | Usado como spotter, e decide que país Diana propõe. |
 | **Indicativo portátil** | O que usas no terreno, por exemplo `CT1ABC/P`. | Preenchido como ativador quando fazes o teu spot ou anuncias. |
 | **Locator Maidenhead** | Seis caracteres, por exemplo `IN51RQ`. | O teu ponto de partida enquanto não houver GPS: para o mapa, as distâncias e as linhas até aos spots. |
 
@@ -43,7 +43,7 @@ Tudo o que preenches aqui fica no navegador deste dispositivo. Usas o Diana tamb
 
 1. Põe-te no sítio para o qual queres o locator, de preferência ao ar livre.
 2. Toca em **Obter do GPS**.
-3. O Diana preenche o locator a partir da tua posição atual.
+3. Diana preenche o locator a partir da tua posição atual.
 
 ## A linha da posição
 
@@ -61,8 +61,8 @@ Debaixo do locator, uma linha diz quão boa foi a tua última posição, por exe
 Não há nenhuma definição para o sítio onde o mapa abre. Abre sempre onde estás, senão no teu locator, senão no país do teu indicativo.
 :::
 '''},
-'settings/your-country': {'title': 'O teu país', 'desc': 'Que país o Diana carrega em detalhe, e em que difere do filtro de spots.', 'body': '''
-**Definições** › **O seu país**. Uma escolha para tudo: que país o Diana carrega com os seus limites reais, e que spots e entradas da agenda o botão do teu país mostra. Dos outros países, o Diana mostra sempre apenas pontos.
+'settings/your-country': {'title': 'O teu país', 'desc': 'Que país Diana carrega em detalhe, e em que difere do filtro de spots.', 'body': '''
+**Definições** › **O seu país**. Uma escolha para tudo: que país Diana carrega com os seus limites reais, e que spots e entradas da agenda o botão do teu país mostra. Dos outros países, Diana mostra sempre apenas pontos.
 
 ## As duas partes
 
@@ -71,11 +71,11 @@ Não há nenhuma definição para o sítio onde o mapa abre. Abre sempre onde es
 | **País** | O país carregado em detalhe. Na lista diz **Com fronteiras** ou **Apenas pontos**. |
 | **Mostrar** | O teu país ou **Mundial**. O filtro do ecrã Spots, o mesmo interruptor que nesse ecrã. |
 
-Debaixo da lista, o Diana diz o que tem para esse país, por exemplo *"CTFF, … áreas com fronteiras carregadas"*, ou que para a OKFF não há fronteiras, apenas pontos no mapa.
+Debaixo da lista, Diana diz o que tem para esse país, por exemplo *"CTFF, … áreas com fronteiras carregadas"*, ou que para a OKFF não há fronteiras, apenas pontos no mapa.
 
 ## Quando mudar
 
-- **Vais ao estrangeiro**: escolhe o país que vais visitar. Se o Diana tiver os seus limites, as áreas aparecem lá por inteiro. Vê {{link:travel/abroad}}.
+- **Vais ao estrangeiro**: escolhe o país que vais visitar. Se Diana tiver os seus limites, as áreas aparecem lá por inteiro. Vê {{link:travel/abroad}}.
 - **Interessa-te uma referência do outro lado da fronteira**: toca no seu ponto azul e usa **Mostrar [país] em detalhe**; isso faz o mesmo que mudar aqui.
 
 ## Passo a passo
@@ -133,10 +133,10 @@ Quase todas as ativações acontecem nas bandas de HF. Com **Apenas HF**, a list
 Vê {{link:spots/announce}}.
 '''},
 'settings/language': {'title': 'Idioma', 'desc': 'Escolher o idioma da aplicação.', 'body': '''
-**Definições** › **Idioma**. O Diana fala inglês, neerlandês, francês, alemão, dinamarquês, italiano, espanhol e português.
+**Definições** › **Idioma**. Diana fala inglês, neerlandês, francês, alemão, dinamarquês, italiano, espanhol e português.
 
 - Escolhe um dos oito, ou **Seguir o navegador** para usar o idioma do teu navegador.
-- Sem escolha feita, o Diana arranca em inglês.
+- Sem escolha feita, Diana arranca em inglês.
 - Também podes mudar o idioma em **≡** no mapa, ou no primeiro passo do assistente.
 
 Tudo muda de imediato. Os nomes das áreas nunca são traduzidos: são nomes oficiais e entram no teu log exatamente como foram publicados.
@@ -146,13 +146,13 @@ As "Novidades" (as notas das versões) só existem em neerlandês e inglês.
 :::
 '''},
 'settings/privacy-settings': {'title': 'Privacidade e estatísticas', 'desc': 'A página de privacidade, a tua escolha sobre estatísticas e limpar tudo.', 'body': '''
-**Definições** › **Privacidade**. O que o Diana guarda, o que envia, e a tua escolha sobre estatísticas anónimas.
+**Definições** › **Privacidade**. O que Diana guarda, o que envia, e a tua escolha sobre estatísticas anónimas.
 
 ## O que encontras aqui
 
-- **Abrir a página de privacidade**: com que serviços o Diana fala e porquê. Resumo em {{link:start/privacy}}.
+- **Abrir a página de privacidade**: com que serviços Diana fala e porquê. Resumo em {{link:start/privacy}}.
 - **Estatísticas anónimas**: **Sim, ajudo com gosto** ou **Não, prefiro que não**. Muda quando quiseres.
-- **Limpar tudo neste dispositivo**: remove tudo o que o Diana guardou aqui.
+- **Limpar tudo neste dispositivo**: remove tudo o que Diana guardou aqui.
 
 ## Mudar a tua escolha sobre estatísticas
 
@@ -161,14 +161,14 @@ As "Novidades" (as notas das versões) só existem em neerlandês e inglês.
 3. Vês *"Guardado."*. É tudo.
 
 :::tip[Porque é que o sim ajuda]
-As estatísticas são contadas com o Umami: sem cookies, sem perfil, nada que te identifique. Para os voluntários por trás do Diana é a única forma de saber que a aplicação é usada e que ecrãs importam. O Diana funciona exatamente da mesma forma em ambos os casos.
+As estatísticas são contadas com o Umami: sem cookies, sem perfil, nada que te identifique. Para os voluntários por trás de Diana é a única forma de saber que a aplicação é usada e que ecrãs importam. Diana funciona exatamente da mesma forma em ambos os casos.
 :::
 
 ## Limpar tudo
 
 1. Toca em **Limpar tudo neste dispositivo**.
-2. O Diana pede confirmação: isto remove o teu indicativo, definições, mosaicos offline do mapa e a tua escolha sobre estatísticas.
-3. Confirma. O Diana recomeça no ecrã de boas-vindas.
+2. Diana pede confirmação: isto remove o teu indicativo, definições, mosaicos offline do mapa e a tua escolha sobre estatísticas.
+3. Confirma. Diana recomeça no ecrã de boas-vindas.
 
 Usa isto quando passas o teu dispositivo a outra pessoa, ou queres começar de novo.
 '''},
@@ -189,7 +189,7 @@ O código só muda quando a própria aplicação muda, não quando a atualizaç�
 
 ## Os botões
 
-- **Procurar atualizações**: o Diana vê se há uma versão nova pronta e carrega-a.
+- **Procurar atualizações**: Diana vê se há uma versão nova pronta e carrega-a.
 - **Novidades**: o que cada versão trouxe, a mais recente no topo.
 - **Repetir o assistente inicial**: o assistente começa a partir das tuas definições atuais. No fim, volta a oferecer a visita.
 

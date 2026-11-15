@@ -18,7 +18,7 @@ Toca em **≡** no canto superior direito do mapa. Podes ligar e desligar o segu
 | **Linhas até aos spots** | As linhas verdes pontilhadas e laranja tracejadas a partir de ti. |
 | **Outras zonas WWFF** | Os pontos azuis do resto do mundo. |
 
-No mesmo menu estão **⤢ Ver todos os spots** e os botões de idioma. O Diana lembra-se das tuas escolhas.
+No mesmo menu estão **⤢ Ver todos os spots** e os botões de idioma. Diana lembra-se das tuas escolhas.
 
 ## Estilo do mapa (◐)
 

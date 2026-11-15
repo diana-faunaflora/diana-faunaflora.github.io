@@ -10,7 +10,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     starlight({
-      title: { en: 'Diana user guide', nl: 'Diana handleiding', de: 'Diana Anleitung', pt: 'Guia do Diana', da: 'Diana brugervejledning', fr: 'Guide d’utilisation Diana', it: 'Guida all’uso di Diana', es: 'Guía de uso de Diana' },
+      title: { en: 'Diana user guide', nl: 'Diana handleiding', de: 'Diana Anleitung', pt: 'Guia de Diana', da: 'Diana brugervejledning', fr: 'Guide d’utilisation Diana', it: 'Guida all’uso di Diana', es: 'Guía de uso de Diana' },
       description: 'Diana Fauna & Flora, the free map app for WWFF activators and hunters.',
       logo: { src: './src/assets/diana-logo.png', alt: 'Diana' },
       favicon: '/icon-192.png',

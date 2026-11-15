@@ -21,7 +21,7 @@ O código só muda quando a própria aplicação muda, não quando a atualizaç�
 
 ## Os botões
 
-- **Procurar atualizações**: o Diana vê se há uma versão nova pronta e carrega-a.
+- **Procurar atualizações**: Diana vê se há uma versão nova pronta e carrega-a.
 - **Novidades**: o que cada versão trouxe, a mais recente no topo.
 - **Repetir o assistente inicial**: o assistente começa a partir das tuas definições atuais. No fim, volta a oferecer a visita.
 
