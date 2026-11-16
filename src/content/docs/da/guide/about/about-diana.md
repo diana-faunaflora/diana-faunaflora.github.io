@@ -19,7 +19,7 @@ Diana er et frivilligt projekt, bygget som hobby af radioamatører, for at støt
 - **Ikke til kommerciel brug.** Dianas kode er tilgængelig under PolyForm Noncommercial License: kun personlig, hobby- og ikke-kommerciel brug.
 - Tilbydes som den er, uden nogen garanti, og så vidt loven tillader det, uden ansvar for fejl eller huller i de data, den viser.
 
-De fulde vilkår står i licensen ved kildekoden: [github.com/diana-onff](https://github.com/diana-onff).
+De fulde vilkår står i PolyForm Noncommercial License: [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/).
 
 ## Til nationale koordinatorer: jeres grænser i Diana
 

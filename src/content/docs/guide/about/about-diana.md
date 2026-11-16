@@ -19,7 +19,7 @@ Diana is a volunteer project, built as a hobby by radio amateurs, to support WWF
 - **Not for commercial use.** Diana’s code is available under the PolyForm Noncommercial License: personal, hobby and noncommercial use only.
 - Offered as it is, without any guarantee, and as far as the law allows, without liability for errors or gaps in the data it shows.
 
-The full terms are in the licence in the source code: [github.com/diana-onff](https://github.com/diana-onff).
+The full terms are in the PolyForm Noncommercial License: [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/).
 
 ## For national coordinators: getting your boundaries in Diana
 

@@ -19,7 +19,7 @@ Diana é um projeto de voluntários, feito por hobby por radioamadores, para apo
 - **Para uso não comercial.** O código de Diana está disponível sob a PolyForm Noncommercial License: apenas uso pessoal, de hobby e não comercial.
 - Oferecido tal como está, sem qualquer garantia e, na medida em que a lei o permite, sem responsabilidade por erros ou lacunas nos dados que mostra.
 
-Os termos completos estão na licença junto ao código-fonte: [github.com/diana-onff](https://github.com/diana-onff).
+Os termos completos estão na PolyForm Noncommercial License: [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/).
 
 ## Para coordenadores nacionais: os vossos limites em Diana
 

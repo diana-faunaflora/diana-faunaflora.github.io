@@ -19,7 +19,7 @@ Diana ist ein ehrenamtliches Projekt, als Hobby von Funkamateuren gebaut, um die
 - **Nicht für kommerzielle Nutzung.** Dianas Code steht unter der PolyForm Noncommercial License: nur persönliche, Hobby- und nichtkommerzielle Nutzung.
 - Angeboten wie sie ist, ohne jede Garantie, und soweit das Gesetz es erlaubt, ohne Haftung für Fehler oder Lücken in den angezeigten Daten.
 
-Die vollständigen Bedingungen stehen in der Lizenz beim Quellcode: [github.com/diana-onff](https://github.com/diana-onff).
+Die vollständigen Bedingungen stehen in der PolyForm Noncommercial License: [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/).
 
 ## Für nationale Koordinatoren: eure Grenzen in Diana
 

@@ -46,7 +46,7 @@ Diana is a volunteer project, built as a hobby by radio amateurs, to support WWF
 - **Not for commercial use.** Diana’s code is available under the PolyForm Noncommercial License: personal, hobby and noncommercial use only.
 - Offered as it is, without any guarantee, and as far as the law allows, without liability for errors or gaps in the data it shows.
 
-The full terms are in the licence in the source code: [github.com/diana-onff](https://github.com/diana-onff).
+The full terms are in the PolyForm Noncommercial License: [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/).
 
 ## For national coordinators: getting your boundaries in Diana
 
@@ -75,7 +75,7 @@ Diana is een vrijwilligersproject, gebouwd als hobby door radioamateurs, om de W
 - **Niet voor commercieel gebruik.** De code van Diana is beschikbaar onder de PolyForm Noncommercial License: alleen persoonlijk, hobby- en niet-commercieel gebruik.
 - Aangeboden zoals ze is, zonder enige garantie, en voor zover de wet dat toelaat, zonder aansprakelijkheid voor fouten of onvolledigheden in de gegevens die ze toont.
 
-De volledige voorwaarden staan in de licentie bij de broncode: [github.com/diana-onff](https://github.com/diana-onff).
+De volledige voorwaarden staan in de PolyForm Noncommercial License: [polyformproject.org](https://polyformproject.org/licenses/noncommercial/1.0.0/).
 
 ## Voor nationale coördinatoren: je grenzen in Diana
 
